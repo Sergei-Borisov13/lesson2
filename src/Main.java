@@ -36,5 +36,25 @@ public class Main {
         System.out.println (frog);
         frog = frog + 4;
         System.out.println (frog);
+
+        var boxerWeight1 = 78.2;
+        var boxerWeight2 = 82.7;
+        var totalWeight = boxerWeight1 + boxerWeight2;
+        System.out.println("Общий вес боксёров " + totalWeight + " кг!");
+        var weightDifference = boxerWeight2 - boxerWeight1;
+        System.out.println("Разница веса боксёров " + weightDifference + " кг");
+        var weightDifference2 = boxerWeight2 % boxerWeight1;
+        System.out.println("Разница веса боксёров с помощью деления " + weightDifference2 + " кг");
+
+
+        var hoursOperation = 640;
+        var hoursWorks = 8;
+        var staff = hoursOperation / hoursWorks;
+        System.out.println("Всего работников в компании — " + staff + " человек");
+        staff = staff + 94;
+        hoursOperation = staff * hoursWorks;
+        System.out.println("Если в компании работает "+ staff + " человек, то всего " + hoursOperation + " часов работы может быть поделено между сотрудниками");
+
+
     }
 }
